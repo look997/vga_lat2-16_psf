@@ -5,7 +5,7 @@ Domyślny font systemu, ale w postaci pliku ISO-8859-2 (ISO Latin-2), czyli z ł
 ## Ustawienie dla Arch Linux
 
 ```bash
-sudo pacman -S sed tee --noconfirm
+sudo pacman -S sed --noconfirm
 
 sudo sed -e '/#pl_PL.UTF-8 UTF-8/ s/^#*//' -i /etc/locale.gen
 sudo sed -e '/#pl_PL ISO-8859-2/ s/^#*//' -i /etc/locale.gen
