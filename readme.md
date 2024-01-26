@@ -34,4 +34,4 @@ CP437 character set
 IBM VGA 8x16  
 Perfect DOS VGA 437  
 default8x16  
-Standard vga font
+Standard VGA font
